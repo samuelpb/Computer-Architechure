@@ -18,4 +18,22 @@ PA1:
           Yell: Returns the string in all Caps.
            
           
-PA2: 
+PA2 (learn.c): 
+  "Given matrices X and Y , your program will compute (XT X)−1XT Y in order to learn W. This will require (1) multiplying, (2)   transposing, and (3) inverting matrices. Programming Assignment I already involved matrix multiplication; you may adapt your   implementation for this assignment.
+  Transposing an m × n matrix produces an n × m matrix. Each row of the X becomes a column of XT ."
+  
+  Using simple machine learning, the program takes in data for the prices of houses, learns the equation, and uses it to         predict the prices of future houses.
+  
+  
+  
+PA3:
+    Using GDB and a "bomb" written in Assembly Language, I had to figure out the inputs needed to prevent the "bomb" from         exploding (essentially it exploded if I got a question wrong. There was no program to write, but I was able to diffuse         stages as simple as entering a string stored in memory to entering an order of a linked list stored, all by decoding           Assembly using the GDB.
+    
+    
+PA4 (truthtable.c): 
+  This program takes in instructions for a truth table using anything from and, or, xor to decoders and multiplexes. Using       structs, I stored the input data and was able to print out truthtables whther or not the inputs were given in order, and       the code could easily handle temporary variables between the input and output.
+  
+PA5 (cachesim.c)
+  This program takes in a document giving the size and type of cache to be implemented, then simulates using a cache on the     following memory lines given. The memory files could be up to a couple million lines of code long, and outputted is a tally   of cache hits and misses, both in a pre-fetch and non pre-fetch cache.
+  
+  
