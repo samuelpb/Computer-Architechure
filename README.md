@@ -16,6 +16,6 @@ PA1:
           a puzzle with one or two empty spaces is solvable.
           Table:A very simple hash table that takes in nubers to insert, and can check whether numbers are present.
           Yell: Returns the string in all Caps.
-          
+           
           
 PA2: 
